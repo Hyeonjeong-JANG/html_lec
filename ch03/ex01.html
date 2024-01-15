@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      div {
+        /* 
+        1. 태그마다 고유한 디자인 특성들이 있다. 
+        2. 그 특성들을 무력화 시키고 디자인 하는 것이 편하다.
+        3. inline-block, block을 주로 쓰고  inline을 쓸 일은 별로 없다.
+        */
+
+        /* 내가 높이를 50으로 잡았지만 마진, 모더, 패딩 등의 속성을 추가하면서 화면에 보이는 영역이 달라진다. */
+        display: block;
+        width: 200px;
+        height: 200px;
+        /* 인라인은 무조건 내용물의 크기에 따라 높이와 너비가 결정되기 때문에 높이 200, 너비 200으로 설정한 것이 반영되지 않는다. */
+        /* 인라인-블락을 써야 높이와 너비의 지정이 가능하고 전체적인 레이아웃이 깔끔하고 */
+        background-color: red;
+        margin-bottom: 10px;
+        border: 10px solid black;
+        padding: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+  </body>
+</html>

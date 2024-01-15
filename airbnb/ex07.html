@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      .box1 {
+        background-color: aliceblue;
+        border: 1px solid black;
+        height: 300px;
+        width: 300px;
+        display: inline-block;
+        text-align: center;
+        /* text-align: center;은 인라인인 애들을 가운데로 옮긴다는 말이다. */
+      }
+      .inner1 {
+        background-color: red;
+        /* display: block; */
+        /* width: 200px; */
+        height: 100px;
+        text-align: center;
+        /* 이너박스1의 가운데 */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 모든 디자인의 배치의 기본은 부모가 결정한다. 그리고 배치되는 자식은 인라인 속성이어야 한다. -->
+    <!-- 부모한테 속성을 먹이면 인라인인 자식들에게만 그 속성이 전파된다. -->
+    <div class="box1">
+      <div class="inner1">Hello World</div>
+      <div class="inner1">Hello World</div>
+    </div>
+  </body>
+</html>
