@@ -1,0 +1,104 @@
+*{
+    margin: 0;padding: 0;
+}
+
+a{
+text-decoration: none;
+color: black;
+}
+
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.main{
+    /* width: calc(1200px - 20px) / 2; */
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    margin-bottom:40px;
+    width:800px;
+    margin: 0 auto;
+}
+
+.main>div{
+    width: 300px;
+    /* width: calc(800px - 20px) / 2; */
+}
+
+/* 오른쪽 앱영역  */
+.app{
+    display: grid;
+    text-align: center;
+}
+.login, .join{
+    border: 1px solid rgb(204, 204, 204);
+    margin-bottom: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.input-area input{
+display: block;
+width: 100%;
+height: 30px;
+margin-bottom: 5px;
+}
+
+
+.btn-login{
+    width: 100%;
+    height: 30px;
+    background-color: #B2DFFC;
+    font-size: 13px;
+    line-height: 30px;
+    border-radius: 5px;
+    color: white;
+    margin: 10px 0;
+}
+
+.login-facebook{
+    margin-bottom: 15px;
+}
+.login-facebook span{
+font-size: 14px;
+color: #385185;
+
+}
+.find-password{
+    font-size: 13px;
+}
+
+.join{
+    width: 100%;
+    line-height: 30px;
+    box-sizing: border-box;
+    padding-bottom: 0;
+}
+.text-blue{
+    color: #2aa0e0;
+}
+.btns-store{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    padding: 20px;
+}
+
+.foorer{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
+    font-size: 10px;
+    
+}
+.menu-footer{
+    display: grid;
+    grid-template-columns: repeat(11, auto);
+}
+.menu-footer>div{
+    margin: 0 10px;
+}
+.copyright{
+    display: grid;
+    justify-content: end;
+}

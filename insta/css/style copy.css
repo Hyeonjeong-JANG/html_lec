@@ -1,0 +1,53 @@
+*{
+    margin: 0;padding: 0;
+}
+a{
+text-decoration: none;
+color: black;
+}
+body{
+    background-color: #FAFAFA;
+    padding: 50px 80px;
+
+}
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.contents{
+display: grid;
+grid-template-columns: auto auto;
+justify-content: space-evenly;grid-column-gap: 10px;
+
+}
+.main-image{
+    /* display: inline-block; */
+width: 300px;
+}
+.main-image img{
+width: 100%;
+}
+.app{
+    width: 300px;
+    display: grid;
+    grid-columns: ;
+}
+.login, .join{
+    border: 1px solid #eee;background-color: #fff;
+}
+
+.btns-store{
+display: grid;
+grid-template-columns: auto auto;
+padding: 10px;
+}
+.btns-store>div img{width: 100%;}
+.btn-appstore{
+    
+/* width: 50px; */
+}
+.btn-googleplay{
+    
+/* width: 50px; */
+}

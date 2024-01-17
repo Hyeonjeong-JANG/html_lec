@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrap{
+    background-color: #FAFAFC;
+    width: 800px;
+    margin: 0 auto;
+}
+
+h3{
+    padding: 10px;
+}
+.wrap>div{
+    padding: 10px;
+}
+.add-meals{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: start;
+
+}
+.meal{
+    padding: 20px;
+    display: grid;
+    text-align: center;
+}
+.meal:first-child{
+    padding-left: 0;
+}
+.img-meal{
+    width: 50px;height: 50px;
+    border: 1px solid #DADADB;
+    border-radius: 50%;
+    line-height: 50px;
+    
+}
+hr{
+    color: #fbfbfd;
+}
+
+.food-images{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: space-between;
+    text-align: center;
+}
+
+.food-image{
+    /* width: 192.5px; */
+    height: 80px;
+    border-radius: 8px;
+position: relative;
+color: white;
+display: grid;  
+ grid-template-columns: repeat(2, auto);
+justify-content: space-between;
+align-items: end;
+padding: 10px;
+overflow: hidden;
+}
+.food-image:nth-child(1){
+    background-image: url(../images/meal1.png);
+}
+.food-image:nth-child(2){
+    background-image: url(../images/meal2.png);
+}
+.food-image:nth-child(3){
+    background-image: url(../images/meal3.png);
+}
+.food-image:nth-child(4){
+    background-image: url(../images/meal4.png);
+}
+
+.btn-plus-mid{
+    border: 1px solid black;
+    background-color: #fff;
+}
+
+.menu{
+    display: grid;  
+    grid-template-columns: repeat(2, auto);
+   justify-content: space-between;
+   margin-bottom: 10px;
+}
